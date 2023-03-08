@@ -1,0 +1,53 @@
+.box-container {
+    width: 45%;
+    height: 200px;
+    background: beige;
+    border-radius: 1px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title h1 {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.maior {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background: white;
+}
+
+@media screen and (max-width: 790px) {
+    .box-container {
+        width: 80%;
+    }
+}
+.align-itens {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-container button {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
